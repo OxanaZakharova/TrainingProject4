@@ -6,8 +6,6 @@ public class Main {
         Buyers buyer2 = new Buyers("Buyer2", 30, "Doctor", 200);
         Buyers buyer3 = new Buyers("Buyer3", 30, "Doctor", 200);
         Dealers dealer1 = new Dealers("Dealer1", 34, "Dealer", 300, 0.1);
-        //System.out.println(seller1);
-       // System.out.println(seller2);
         Car car = new Car(150, 20,seller2, 0);
         Airplane airplane = new Airplane(700, 500, seller1,0, true);
         Helicopter helicopter = new Helicopter(600, 60, seller1, 0, true);
@@ -19,9 +17,5 @@ public class Main {
         dealer1.bigDeal(seller1, car, buyer2);
         System.out.println(seller1);
         System.out.println(car);
-
-
-
-
     }
 }
